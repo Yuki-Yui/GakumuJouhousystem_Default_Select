@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Popup</title>
+    <style>
+        body {
+            border: 2px solid gray;
+            width: 250px;
+            padding: 10px;
+        }
+        h1{
+            margin: 0.5rem 0;
+        }
+        select{
+            margin:0.5rem 0;
+        }
+    </style>
+    <script src="save.js" defer></script>
+</head>
+<body>
+    <h1>シラバス検索のデフォルト値</h1>
+    <label for="gakki">学期:</label>
+    <select id="gakki">
+        <option value="">指示なし</option>
+            <option value="1">前学期</option>
+            <option value="2">後学期</option>
+            <option value="3">春ﾀｰﾑ</option>
+            <option value="4">夏ﾀｰﾑ</option>
+            <option value="5">秋ﾀｰﾑ</option>
+            <option value="6">冬ﾀｰﾑ</option>
+    </select><br>
+    <button id="submitButton">設定</button><br>
+    <span id="message"></span>
+</body>
+</html>

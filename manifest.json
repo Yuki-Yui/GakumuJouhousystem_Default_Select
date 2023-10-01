@@ -1,0 +1,17 @@
+{
+	"name": "学務情報システムのシラバス検索画面での選択項目をデフォルトの値にします。",
+	"manifest_version": 3,
+	"version": "1.0",
+	"content_scripts": [
+		{
+			"matches": ["https://campusweb.office.uec.ac.jp/*"],
+			"js": ["change_select.js"]
+		}
+	],
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"storage"
+	]
+}
