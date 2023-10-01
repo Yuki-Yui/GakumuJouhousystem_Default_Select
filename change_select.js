@@ -1,4 +1,4 @@
-let gakkicode = 2;
+let gakkicode = 0;
 
 chrome.storage.local.get("gakki", function(data) {
     gakkicode = data.gakki;
