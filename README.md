@@ -11,9 +11,10 @@
 ※Chromiumベースのブラウザなら動くと思います(たぶん)。firefoxは対応してません。
 
 ## インストール方法
-1. 任意のディレクトリに、リポジトリを[ダウンロード](https://github.com/Yuki-Yui/GakumuJouhousystem_Default_Select/archive/refs/heads/main.zip)するか ```git clone``` する
+1. 任意のディレクトリに、リポジトリを[zipでダウンロード](https://github.com/Yuki-Yui/GakumuJouhousystem_Default_Select/archive/refs/heads/main.zip)するか ```git clone``` する
+1. zipでダウンロードしたら任意の場所に展開（解凍）する
 1. 拡張機能のページ(chrome://extensions/)に移動し、画面右上のデベロッパーモードをオン
-1. 画面上部の「パッケージ化されていない拡張機能を読み込む」をクリックし、ダウンロードしたフォルダを選択する
+1. 画面上部の「パッケージ化されていない拡張機能を読み込む」をクリックし、先ほどダウンロードしたフォルダを選択する
 
 ## 設定方法（Chromeの場合）
 別のブラウザでもだいたい同じです。
