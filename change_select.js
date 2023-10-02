@@ -18,7 +18,6 @@ chrome.storage.local.get("gakki", function(data) {
 });
 
 function change(){
-    console.log("a")
     const frame = document.getElementById("idForChangeMenu").getElementsByTagName("frame")[1].contentWindow;
     const gakki = frame.document.getElementById('gakkiKubunCode');
     if (gakki != null){
